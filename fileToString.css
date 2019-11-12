@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#container {
+	max-width: 100vw;
+	font-size: 1.2rem;
+}
+
+p {
+	display: none;
+	padding: 5vw;
+}
+
+h1 {
+	text-align: center;
+}
+
+#para2Header {
+	display: none;
+}
+
+#returnedString {
+	background-color: rgba(0,255,255,1.00);
+}
+
+#returnedStringWithoutComments {
+	background-color: rgba(228,29,66,1.00);
+}
