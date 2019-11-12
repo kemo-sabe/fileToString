@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Access-Control-Allow-Origin" content="*">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>File to String</title>
+		<link rel="stylesheet" href="fileToString.css">
+	</head>
+	<body>
+		<!--	**************************************	HEADER	************************************	-->
+		<h1>Create .min string from file</h1>
+		<!--	**************************************	INPUT	**************************************	-->
+		<div id="container">
+			<input type="file" id="fileName">
+			<button id="upBtn" onClick="process()">Submit</button>
+		</div>
+		<!--	**********************************	RETURNED STRING	********************************	-->
+		<p id="returnedString"></p>
+		<!--	**************************	RETURNED STRING W/0 COMMENTS	**************************	-->
+		<h2 id="para2Header">String Without Comments (experimental, use with caution):</h2>
+		<p id="returnedStringWithoutComments"></p>
+		<!--	************************************	JAVASCRIPT	**********************************	-->
+		<script src="fileToString.js"></script>
+	</body>
+</html>
